@@ -6,7 +6,7 @@ a un contexto bancario. Este es un proyecto de portafolio para roles de Data Sci
 ## Resultados
 
 Modelo usado: **LightGBM** tuneado con RandomizedSearchCV (TimeSeriesSplit) —
-AUC-ROC **0.9036** / PR-AUC **0.5026**, sobre un baseline de AUC-ROC 0.8959 / PR-AUC 0.4891.
+AUC-ROC **0.9040** / PR-AUC **0.5026**, sobre un baseline de AUC-ROC 0.8959 / PR-AUC 0.4891.
 
 Hallazgo clave (SHAP): el monto de la transacción (`TransactionAmt`)
 es la variable más relevante, seguido de variables de conteo que fueron previamente anonimizdas por el dueño del dataset (`C*`) y
